@@ -1,4 +1,9 @@
 # For newly installed Linux system save time from setting up
+## Use
+```
+cd FastSetup
+./ubuntuSetup.sh
+```
 ## Following software will be installed:
 Name|Link
 ---|---
