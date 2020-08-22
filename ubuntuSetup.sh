@@ -5,7 +5,7 @@ python3 -V
 sudo apt install -y python3-pip
 sudo apt install -y git vim curl wget
 sudo apt install -y terminator zsh
-sh -c "$(curl -fsSL https://raw.github.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"
+yes n | sh -c "$(curl -fsSL https://raw.github.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"
 sudo apt install -y fonts-powerline xclip
 sed -i 's/ZSH_THEME="robbyrussell"/ZSH_THEME="agnoster"/g' ~/.zshrc
 echo "alias python=python3" >> ~/.zshrc
