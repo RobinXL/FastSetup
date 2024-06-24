@@ -15,3 +15,4 @@ Oh my zsh|[Detail](https://ohmyz.sh/)
 - Change zsh theme to `agnoster`
 - Install newest python3 and pip3
 - alias python3 and pip3 to python and pip in `zshrc`
+- Enable ssh

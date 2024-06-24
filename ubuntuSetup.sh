@@ -3,7 +3,8 @@ sudo apt update -y
 sudo apt upgrade -y
 python3 -V
 sudo apt install -y python3-pip
-sudo apt install -y git vim curl wget
+sudo apt install -y git vim curl wget openssh-server
+sudo ufw allow ssh
 sudo apt install -y terminator zsh
 yes n | sh -c "$(curl -fsSL https://raw.github.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"
 sudo apt install -y fonts-powerline xclip
